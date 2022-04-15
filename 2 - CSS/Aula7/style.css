@@ -1,0 +1,19 @@
+body {
+    background: #dfdfdf;
+} 
+
+p{
+  color:#222222;
+}
+
+.foto_principal { /* classe iniciasse com ponto */
+    width: 200px;
+    border: 3.5px #ffffff;
+    border-radius: 65% 65% 15% 65%; /* CONTORNO IMAGEM */
+    border-style: dotted solid dotted solid; /*EFEITO BORDA - superior, direta, inferior, esquerda. EN: TOP, RIGHT, BOTTOM, LEFT*/
+
+    /* border-radius: CSE CSD CIE CID "Canto=C Superior=S Inferior=I Esquerdo=E Direito=D"*/
+    margin: 30px;
+    padding: 5px;
+    box-shadow: 0px 0px 20px #959595 ;
+}

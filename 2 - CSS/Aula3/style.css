@@ -1,0 +1,17 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    /* background-position: 50% 2%; */
+    background-position: center center;/* botton, left, right, top */
+    background-size: cover; /* cover = cobrir preeche todo o background com a imagem */
+    background-attachment: fixed;
+
+} 
+
+.foto{
+    width: 150px;
+}
+
+p{
+    color:#222222;
+}

@@ -1,0 +1,29 @@
+body {
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color:#222222;
+} 
+
+.foto_principal {
+    width: 200px;
+    border: 4px #ffffff; /* shorthand */
+    border-radius: 65% 65% 15% 65%; /* border-radius: CSE CSD CIE CID "Canto=C Superior=S Inferior=I Esquerdo=E Direito=D" */
+    border-style: dotted solid dotted solid; /* superior direta inferior esquerda */
+    margin: 30px;
+    padding: 3px; /* espaçamento interno */
+    box-shadow: 0px 0px 10px #95959595;
+}
+
+ h1{ 
+    margin-bottom: 0px; /* reduzindo o espaçamento e uma linha e outra */
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+ }
+ h2{
+     margin-top: 0px; /* reduzindo o espaçamento e uma linha e outra */
+     font-style: italic; /* estilo da escrita */
+     color: #4c4c4c; /* cor da fonte */
+     font-weight: 100; /* estilo negrito */
+     letter-spacing: -1px; /* espaçamento entre as letras*/
+ }
